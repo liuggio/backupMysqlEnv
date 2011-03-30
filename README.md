@@ -1,7 +1,9 @@
 * Utility for copy or move database between hosts and environment
+==================
 
 
 just populate properly the config.conf
+and the ignore file (if you want)
 and run 
 
     usage:
