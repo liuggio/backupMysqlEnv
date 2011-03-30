@@ -33,7 +33,11 @@ needHelp() {
 	echo "      $0 show:tables [from]";
     echo "        eg. show:tables test";
 	echo "      $0 count:tables [from]";
-    echo "        eg. count:tables test";               
+    echo "        eg. count:tables test";
+    echo "      $0 gzip:data [from]";
+    echo "        eg. gzip:data live";
+    echo "      $0 gzip:structure [from]";
+    echo "        eg. gzip:structure live";               
 }
 
 importTables() {
